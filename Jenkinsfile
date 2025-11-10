@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        REPO_URL = 'https://github.com/Sharmila127/notification-service.git'   // 🔗 Replace with your actual repo
+        REPO_URL = 'https://github.com/Reagan-m/notification-service.git'   // 🔗 Replace with your actual repo
         IMAGE_NAME = 'notification-service'
         CONTAINER_NAME = 'notification-service'
     }
